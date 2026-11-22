@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NutriApp.Api/NutriApp.Api.csproj" />
+    <Project Path="src/NutriApp.Domain/NutriApp.Domain.csproj" />
+    <Project Path="src/NutriApp.Infrastructure/NutriApp.Infrastructure.csproj" />
+    <Project Path="src/NutriApp.Mobile/NutriApp.Mobile.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NutriApp.Tests/NutriApp.Tests.csproj" />
+  </Folder>
+</Solution>
