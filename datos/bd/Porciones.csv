@@ -1,0 +1,998 @@
+﻿Id,AlimentoId,Descripcion,Gramos,EsPredeterminada,Fuente
+1,1,1 taza,158.0,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, cooked (1.0 cup)"
+2,2,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+3,3,1 taza,158.0,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, cooked (1.0 cup)"
+4,4,1/3 taza crudo (≈ 1 taza cocido),61.7,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, raw (1.0 cup × 0.3333)"
+5,5,1 taza,158.0,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, cooked (1.0 cup)"
+6,6,1/3 taza crudo (≈ 1 taza cocido),61.7,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, raw (1.0 cup × 0.3333)"
+7,7,1 taza,158.0,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, cooked (1.0 cup)"
+8,8,1/3 taza crudo (≈ 1 taza cocido),61.7,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, raw (1.0 cup × 0.3333)"
+9,9,1 porción,50.0,true,Estimado del equipo (revisar)
+10,10,1/3 taza crudo (≈ 1 taza cocido),61.7,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, raw (1.0 cup × 0.3333)"
+11,11,1 taza,158.0,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, cooked (1.0 cup)"
+12,12,1/3 taza crudo (≈ 1 taza cocido),61.7,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, raw (1.0 cup × 0.3333)"
+13,13,1 taza,158.0,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, cooked (1.0 cup)"
+14,14,1/3 taza crudo (≈ 1 taza cocido),61.7,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, raw (1.0 cup × 0.3333)"
+15,15,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+16,16,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+17,17,1 taza,158.0,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, cooked (1.0 cup)"
+18,18,1/3 taza crudo (≈ 1 taza cocido),61.7,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, raw (1.0 cup × 0.3333)"
+19,19,1/2 taza,40.5,true,"USDA FoodData Central SR Legacy: Cereals, oats, regular and quick, not fortified, dry (1.0 cup × 0.5)"
+20,20,1/2 taza,40.5,true,"USDA FoodData Central SR Legacy: Cereals, oats, regular and quick, not fortified, dry (1.0 cup × 0.5)"
+21,21,1 taza,158.0,true,"USDA FoodData Central SR Legacy: Rice, white, long-grain, regular, cooked (1.0 cup)"
+22,22,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+23,23,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+24,24,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+25,25,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+26,26,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+27,27,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+28,28,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+29,29,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+30,30,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+31,31,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+32,32,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+33,33,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+34,34,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+35,35,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+36,36,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+37,37,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+38,38,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+39,39,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+40,40,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+41,41,1 taza,30.0,true,Tamaño de porción típico de etiqueta (30 g)
+42,42,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+43,43,1 unidad,80.0,true,Estimado del equipo (revisar)
+44,44,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+45,45,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+46,46,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+47,47,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+48,48,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+49,49,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+50,50,1 unidad,80.0,true,Estimado del equipo (revisar)
+51,51,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+52,52,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+53,53,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+54,54,1/4 taza,30.5,true,"USDA FoodData Central SR Legacy: Cereals ready-to-eat, granola, homemade (1.0 cup × 0.25)"
+55,55,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+56,56,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+57,57,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+58,58,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+59,59,3 unidades,34.0,true,"USDA FoodData Central SR Legacy: Cookies, chocolate chip, commercially prepared, regular, lower fat (1.0 serving 3 cooki"
+60,60,1 unidad,80.0,true,Estimado del equipo (revisar)
+61,61,1 porción,50.0,true,Estimado del equipo (revisar)
+62,62,1 unidad,80.0,true,Estimado del equipo (revisar)
+63,63,1 unidad,80.0,true,Estimado del equipo (revisar)
+64,64,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+65,65,1/2 taza,30.0,true,Estimado del equipo (revisar)
+66,66,1/2 taza,30.0,true,Estimado del equipo (revisar)
+67,67,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+68,68,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+69,69,1/2 taza,30.0,true,Estimado del equipo (revisar)
+70,70,1/2 taza,30.0,true,Estimado del equipo (revisar)
+71,71,1/4 taza crudo,45.0,true,Estimado del equipo (revisar)
+72,72,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+73,73,1/2 taza,30.0,true,Estimado del equipo (revisar)
+74,74,1 unidad,24.0,true,"USDA FoodData Central SR Legacy: Tortillas, ready-to-bake or -fry, corn (1.0 tortilla)"
+75,75,1/4 taza crudo,45.0,true,Estimado del equipo (revisar)
+76,76,1/2 taza,30.0,true,Estimado del equipo (revisar)
+77,77,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+78,78,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+79,79,1 taza,165.0,true,"USDA FoodData Central SR Legacy: Hominy, canned, white (1.0 cup)"
+80,80,1/4 taza crudo,45.0,true,Estimado del equipo (revisar)
+81,81,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+82,82,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+83,83,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+84,84,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+85,85,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+86,86,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+87,87,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+88,88,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+89,89,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+90,90,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+91,91,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+92,92,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+93,93,1 unidad,24.0,true,"USDA FoodData Central SR Legacy: Tortillas, ready-to-bake or -fry, corn (1.0 tortilla)"
+94,94,1 unidad,24.0,true,"USDA FoodData Central SR Legacy: Tortillas, ready-to-bake or -fry, corn (1.0 tortilla)"
+95,95,1 taza,165.0,true,"USDA FoodData Central SR Legacy: Hominy, canned, white (1.0 cup)"
+96,96,1 taza,165.0,true,"USDA FoodData Central SR Legacy: Hominy, canned, white (1.0 cup)"
+97,97,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+98,98,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+99,99,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+100,100,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+101,101,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+102,102,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+103,103,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+104,104,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+105,105,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+106,106,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+107,107,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+108,108,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+109,109,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+110,110,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+111,111,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+112,112,1 taza,124.0,true,"USDA FoodData Central SR Legacy: Pasta, cooked, enriched, without added salt (1.0 cup spaghetti not packed)"
+113,113,1 porción seca,56.0,true,USDA: 2 oz (56 g) de pasta seca por porción
+114,114,1 porción seca,56.0,true,USDA: 2 oz (56 g) de pasta seca por porción
+115,115,1 porción seca,56.0,true,USDA: 2 oz (56 g) de pasta seca por porción
+116,116,1 taza,124.0,true,"USDA FoodData Central SR Legacy: Pasta, cooked, enriched, without added salt (1.0 cup spaghetti not packed)"
+117,117,1 taza,124.0,true,"USDA FoodData Central SR Legacy: Pasta, cooked, enriched, without added salt (1.0 cup spaghetti not packed)"
+118,118,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+119,119,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+120,120,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+121,121,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+122,122,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+123,123,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+124,124,1 unidad,43.0,true,"USDA FoodData Central SR Legacy: Rolls, dinner, plain, commercially prepared (1.0 roll (hamburger)"
+125,125,1 rebanada,29.0,true,"USDA FoodData Central SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs) (1.0 slice)"
+126,126,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+127,127,1 porción seca,56.0,true,USDA: 2 oz (56 g) de pasta seca por porción
+128,128,1 porción seca,56.0,true,USDA: 2 oz (56 g) de pasta seca por porción
+129,129,1 taza,185.0,true,"USDA FoodData Central SR Legacy: Quinoa, cooked (1.0 cup)"
+130,130,1 porción seca,56.0,true,USDA: 2 oz (56 g) de pasta seca por porción
+131,131,1 taza,124.0,true,"USDA FoodData Central SR Legacy: Pasta, cooked, enriched, without added salt (1.0 cup spaghetti not packed)"
+132,132,1 porción seca,56.0,true,USDA: 2 oz (56 g) de pasta seca por porción
+133,133,1 unidad,80.0,true,Estimado del equipo (revisar)
+134,134,1 porción seca,56.0,true,USDA: 2 oz (56 g) de pasta seca por porción
+135,135,1 porción seca,56.0,true,USDA: 2 oz (56 g) de pasta seca por porción
+136,136,1 taza,124.0,true,"USDA FoodData Central SR Legacy: Pasta, cooked, enriched, without added salt (1.0 cup spaghetti not packed)"
+137,137,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+138,138,1 unidad,80.0,true,Estimado del equipo (revisar)
+139,139,1 unidad,24.0,true,"USDA FoodData Central SR Legacy: Tortillas, ready-to-bake or -fry, corn (1.0 tortilla)"
+140,140,1 unidad,24.0,true,"USDA FoodData Central SR Legacy: Tortillas, ready-to-bake or -fry, corn (1.0 tortilla)"
+141,141,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+142,142,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+143,143,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+144,144,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+145,145,1/4 taza cruda,42.5,true,"USDA FoodData Central SR Legacy: Quinoa, uncooked (1.0 cup × 0.25)"
+146,146,1 porción,50.0,true,Estimado del equipo (revisar)
+147,147,1 taza,130.0,true,Estimado del equipo (revisar)
+148,148,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+149,149,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+150,150,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+151,151,1 porción,60.0,true,Estimado del equipo (revisar)
+152,152,1/2 unidad,133.5,true,"USDA FoodData Central SR Legacy: Plantains, green, raw (1.0 plantain × 0.5)"
+153,153,1 taza,130.0,true,Estimado del equipo (revisar)
+154,154,1 taza,130.0,true,Estimado del equipo (revisar)
+155,155,1 porción,60.0,true,Estimado del equipo (revisar)
+156,156,1 porción,50.0,true,Estimado del equipo (revisar)
+157,157,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+158,158,1 porción,50.0,true,Estimado del equipo (revisar)
+159,159,1 taza,130.0,true,Estimado del equipo (revisar)
+160,160,1 porción,60.0,true,Estimado del equipo (revisar)
+161,161,1 taza,130.0,true,Estimado del equipo (revisar)
+162,162,1 unidad mediana,136.0,true,"USDA FoodData Central SR Legacy: Potatoes, boiled, cooked in skin, flesh, without salt (1.0 potato)"
+163,163,1 unidad mediana,136.0,true,"USDA FoodData Central SR Legacy: Potatoes, boiled, cooked in skin, flesh, without salt (1.0 potato)"
+164,164,1 unidad mediana,136.0,true,"USDA FoodData Central SR Legacy: Potatoes, boiled, cooked in skin, flesh, without salt (1.0 potato)"
+165,165,1 unidad mediana,136.0,true,"USDA FoodData Central SR Legacy: Potatoes, boiled, cooked in skin, flesh, without salt (1.0 potato)"
+166,166,1 unidad mediana,130.0,true,"USDA FoodData Central SR Legacy: Sweet potato, raw (1.0 sweetpotato, 5"" long)"
+167,167,1 unidad mediana,136.0,true,"USDA FoodData Central SR Legacy: Potatoes, boiled, cooked in skin, flesh, without salt (1.0 potato)"
+168,168,1 unidad mediana,136.0,true,"USDA FoodData Central SR Legacy: Potatoes, boiled, cooked in skin, flesh, without salt (1.0 potato)"
+169,169,1 unidad mediana,130.0,true,"USDA FoodData Central SR Legacy: Sweet potato, raw (1.0 sweetpotato, 5"" long)"
+170,170,1 porción,50.0,true,Estimado del equipo (revisar)
+171,171,1 porción,50.0,true,Estimado del equipo (revisar)
+172,172,1/4 de raíz,102.0,true,"USDA FoodData Central SR Legacy: Cassava, raw (1.0 root × 0.25)"
+173,173,1 porción,60.0,true,Estimado del equipo (revisar)
+174,174,1 unidad,24.0,true,"USDA FoodData Central SR Legacy: Tortillas, ready-to-bake or -fry, corn (1.0 tortilla)"
+175,175,1 porción,50.0,true,Estimado del equipo (revisar)
+176,176,1/2 unidad,133.5,true,"USDA FoodData Central SR Legacy: Plantains, green, raw (1.0 plantain × 0.5)"
+177,177,1/2 unidad,133.5,true,"USDA FoodData Central SR Legacy: Plantains, green, raw (1.0 plantain × 0.5)"
+178,178,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+179,179,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+180,180,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+181,181,1/2 unidad,100.5,true,"USDA FoodData Central SR Legacy: Avocados, raw, all commercial varieties (1.0 avocado × 0.5)"
+182,182,1/2 unidad,100.5,true,"USDA FoodData Central SR Legacy: Avocados, raw, all commercial varieties (1.0 avocado × 0.5)"
+183,183,1/2 taza,125.0,true,Estimado del equipo (revisar)
+184,184,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+185,185,1/4 taza,40.0,true,Estimado del equipo (revisar)
+186,186,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+187,187,1/2 taza,125.0,true,Estimado del equipo (revisar)
+188,188,1/4 taza,40.0,true,Estimado del equipo (revisar)
+189,189,1/4 taza,40.0,true,Estimado del equipo (revisar)
+190,190,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+191,191,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+192,192,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+193,193,1/4 taza,40.0,true,Estimado del equipo (revisar)
+194,194,1/4 taza,40.0,true,Estimado del equipo (revisar)
+195,195,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+196,196,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+197,197,1 unidad mediana,118.0,true,"USDA FoodData Central SR Legacy: Bananas, raw (1.0 medium)"
+198,198,1 unidad mediana,118.0,true,"USDA FoodData Central SR Legacy: Bananas, raw (1.0 medium)"
+199,199,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+200,200,1/4 taza,40.0,true,Estimado del equipo (revisar)
+201,201,1/4 taza,40.0,true,Estimado del equipo (revisar)
+202,202,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+203,203,1 taza,152.0,true,"USDA FoodData Central SR Legacy: Strawberries, raw (1.0 cup, halves)"
+204,204,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+205,205,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+206,206,1/2 taza,125.0,true,Estimado del equipo (revisar)
+207,207,2 unidades (pulpa),36.0,true,"USDA FoodData Central SR Legacy: Passion-fruit, (granadilla), purple, raw (1.0 fruit without refuse × 2)"
+208,208,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+209,209,1/2 taza,125.0,true,Estimado del equipo (revisar)
+210,210,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+211,211,1/2 taza,125.0,true,Estimado del equipo (revisar)
+212,212,1/2 taza,125.0,true,Estimado del equipo (revisar)
+213,213,1/2 taza,125.0,true,Estimado del equipo (revisar)
+214,214,1/2 taza,125.0,true,Estimado del equipo (revisar)
+215,215,1/2 taza,125.0,true,Estimado del equipo (revisar)
+216,216,1/4 taza,40.0,true,Estimado del equipo (revisar)
+217,217,1/4 taza,40.0,true,Estimado del equipo (revisar)
+218,218,1/4 taza rallado,20.0,true,Estimado del equipo (revisar)
+219,219,1/4 taza rallado,20.0,true,Estimado del equipo (revisar)
+220,220,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+221,221,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+222,222,1/4 taza,40.0,true,Estimado del equipo (revisar)
+223,223,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+224,224,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+225,225,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+226,226,1/2 taza,125.0,true,Estimado del equipo (revisar)
+227,227,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+228,228,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+229,229,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+230,230,1/2 taza,125.0,true,Estimado del equipo (revisar)
+231,231,1/2 taza,125.0,true,Estimado del equipo (revisar)
+232,232,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+233,233,1/4 taza,40.0,true,Estimado del equipo (revisar)
+234,234,1 unidad mediana,182.0,true,"USDA FoodData Central SR Legacy: Apples, raw, with skin (1.0 medium)"
+235,235,1 unidad mediana,88.0,true,"USDA FoodData Central SR Legacy: Tangerines, (mandarin oranges), raw (1.0 medium)"
+236,236,1 unidad,58.0,true,"USDA FoodData Central SR Legacy: Lemons, raw, without peel (1.0 fruit (2-1/8"" dia))"
+237,237,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+238,238,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+239,239,1 cucharada,15.0,true,Estimado del equipo (revisar)
+240,240,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+241,241,1 taza en trozos,165.0,true,"USDA FoodData Central SR Legacy: Mangos, raw (1.0 cup pieces)"
+242,242,1/4 taza,40.0,true,Estimado del equipo (revisar)
+243,243,1 unidad mediana,182.0,true,"USDA FoodData Central SR Legacy: Apples, raw, with skin (1.0 medium)"
+244,244,1 taza en trozos,165.0,true,"USDA FoodData Central SR Legacy: Mangos, raw (1.0 cup pieces)"
+245,245,1 taza en trozos,165.0,true,"USDA FoodData Central SR Legacy: Mangos, raw (1.0 cup pieces)"
+246,246,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+247,247,1 unidad,131.0,true,"USDA FoodData Central SR Legacy: Oranges, raw, all commercial varieties (1.0 fruit)"
+248,248,1 unidad,131.0,true,"USDA FoodData Central SR Legacy: Oranges, raw, all commercial varieties (1.0 fruit)"
+249,249,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+250,250,1 unidad mediana,177.0,true,"USDA FoodData Central SR Legacy: Pears, raw, bartlett (1.0 medium)"
+251,251,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+252,252,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+253,253,1/4 taza,40.0,true,Estimado del equipo (revisar)
+254,254,1/4 taza,40.0,true,Estimado del equipo (revisar)
+255,255,1/2 taza,72.0,true,"USDA FoodData Central SR Legacy: Blackberries, raw (1.0 cup × 0.5)"
+256,256,1/4 taza,40.0,true,Estimado del equipo (revisar)
+257,257,1 taza en trozos,145.0,true,"USDA FoodData Central SR Legacy: Papayas, raw (1.0 cup 1"" pieces)"
+258,258,1 unidad mediana,182.0,true,"USDA FoodData Central SR Legacy: Apples, raw, with skin (1.0 medium)"
+259,259,1 unidad,131.0,true,"USDA FoodData Central SR Legacy: Oranges, raw, all commercial varieties (1.0 fruit)"
+260,260,2 unidades (pulpa),36.0,true,"USDA FoodData Central SR Legacy: Passion-fruit, (granadilla), purple, raw (1.0 fruit without refuse × 2)"
+261,261,1/4 taza,40.0,true,Estimado del equipo (revisar)
+262,262,1/4 taza,40.0,true,Estimado del equipo (revisar)
+263,263,1/4 taza,40.0,true,Estimado del equipo (revisar)
+264,264,1/2 taza,72.0,true,"USDA FoodData Central SR Legacy: Blackberries, raw (1.0 cup × 0.5)"
+265,265,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+266,266,1 taza en cubos,160.0,true,"USDA FoodData Central SR Legacy: Melons, cantaloupe, raw (1.0 cup, cubes)"
+267,267,1 taza en cubos,160.0,true,"USDA FoodData Central SR Legacy: Melons, cantaloupe, raw (1.0 cup, cubes)"
+268,268,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+269,269,1/4 taza,40.0,true,Estimado del equipo (revisar)
+270,270,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+271,271,1 taza,151.0,true,"USDA FoodData Central SR Legacy: Grapes, red or green (1.0 cup)"
+272,272,1/2 taza,125.0,true,Estimado del equipo (revisar)
+273,273,1/4 taza,40.0,true,Estimado del equipo (revisar)
+274,274,1 taza,151.0,true,"USDA FoodData Central SR Legacy: Grapes, red or green (1.0 cup)"
+275,275,1/2 taza,72.0,true,"USDA FoodData Central SR Legacy: Blackberries, raw (1.0 cup × 0.5)"
+276,276,1/2 taza,125.0,true,Estimado del equipo (revisar)
+277,277,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+278,278,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+279,279,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+280,280,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+281,281,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+282,282,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+283,283,1/4 taza,40.0,true,Estimado del equipo (revisar)
+284,284,1 taza en cubos,152.0,true,"USDA FoodData Central SR Legacy: Watermelon, raw (1.0 cup, diced)"
+285,285,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+286,286,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+287,287,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+288,288,1/2 taza,125.0,true,Estimado del equipo (revisar)
+289,289,1 taza en trozos,165.0,true,"USDA FoodData Central SR Legacy: Pineapple, raw, all varieties (1.0 cup, chunks)"
+290,290,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+291,291,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+292,292,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+293,293,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+294,294,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+295,295,1/4 taza picado,4.0,true,"USDA FoodData Central SR Legacy: Coriander (cilantro) leaves, raw (0.25 cup)"
+296,296,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+297,297,1 cucharadita,3.0,true,Estimado del equipo (revisar)
+298,298,1/2 unidad,55.0,true,"USDA FoodData Central SR Legacy: Onions, raw (1.0 medium × 0.5)"
+299,299,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+300,300,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+301,301,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+302,302,1 cucharadita,3.0,true,Estimado del equipo (revisar)
+303,303,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+304,304,1/2 unidad,55.0,true,"USDA FoodData Central SR Legacy: Onions, raw (1.0 medium × 0.5)"
+305,305,1 taza,91.0,true,"USDA FoodData Central SR Legacy: Broccoli, raw (1.0 cup chopped)"
+306,306,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+307,307,1 diente,3.0,true,"USDA FoodData Central SR Legacy: Garlic, raw (1.0 clove)"
+308,308,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+309,309,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+310,310,1/2 unidad,55.0,true,"USDA FoodData Central SR Legacy: Onions, raw (1.0 medium × 0.5)"
+311,311,1 taza,91.0,true,"USDA FoodData Central SR Legacy: Broccoli, raw (1.0 cup chopped)"
+312,312,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+313,313,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+314,314,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+315,315,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+316,316,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+317,317,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+318,318,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+319,319,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+320,320,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+321,321,1/2 unidad,55.0,true,"USDA FoodData Central SR Legacy: Onions, raw (1.0 medium × 0.5)"
+322,322,1/4 taza picado,4.0,true,"USDA FoodData Central SR Legacy: Coriander (cilantro) leaves, raw (0.25 cup)"
+323,323,2 tazas,60.0,true,"USDA FoodData Central SR Legacy: Spinach, raw (1.0 cup × 2)"
+324,324,2 tazas,60.0,true,"USDA FoodData Central SR Legacy: Spinach, raw (1.0 cup × 2)"
+325,325,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+326,326,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+327,327,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+328,328,1 mazorca mediana,90.0,true,"USDA FoodData Central SR Legacy: Corn, sweet, white, raw (1.0 ear, medium)"
+329,329,1 taza,91.0,true,"USDA FoodData Central SR Legacy: Broccoli, raw (1.0 cup chopped)"
+330,330,1 taza,91.0,true,"USDA FoodData Central SR Legacy: Broccoli, raw (1.0 cup chopped)"
+331,331,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+332,332,1 mazorca mediana,90.0,true,"USDA FoodData Central SR Legacy: Corn, sweet, white, raw (1.0 ear, medium)"
+333,333,1/2 taza,77.0,true,"USDA FoodData Central SR Legacy: Corn, sweet, white, raw (1.0 cup kernels × 0.5)"
+334,334,1 mazorca mediana,90.0,true,"USDA FoodData Central SR Legacy: Corn, sweet, white, raw (1.0 ear, medium)"
+335,335,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+336,336,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+337,337,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+338,338,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+339,339,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+340,340,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+341,341,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+342,342,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+343,343,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+344,344,1 taza picada,72.0,true,"USDA FoodData Central SR Legacy: Lettuce, iceberg (1.0 cup shredded)"
+345,345,1/4 taza picado,4.0,true,"USDA FoodData Central SR Legacy: Coriander (cilantro) leaves, raw (0.25 cup)"
+346,346,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+347,347,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+348,348,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+349,349,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+350,350,1 unidad mediana,136.0,true,"USDA FoodData Central SR Legacy: Potatoes, boiled, cooked in skin, flesh, without salt (1.0 potato)"
+351,351,1 unidad mediana,136.0,true,"USDA FoodData Central SR Legacy: Potatoes, boiled, cooked in skin, flesh, without salt (1.0 potato)"
+352,352,1/2 taza en rodajas,52.0,true,"USDA FoodData Central SR Legacy: Cucumber, with peel, raw (0.5 cup slices)"
+353,353,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+354,354,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+355,355,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+356,356,1/4 taza picado,4.0,true,"USDA FoodData Central SR Legacy: Coriander (cilantro) leaves, raw (0.25 cup)"
+357,357,1/4 taza picado,4.0,true,"USDA FoodData Central SR Legacy: Coriander (cilantro) leaves, raw (0.25 cup)"
+358,358,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+359,359,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+360,360,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+361,361,1 unidad mediana,61.0,true,"USDA FoodData Central SR Legacy: Carrots, raw (1.0 medium)"
+362,362,1 unidad mediana,61.0,true,"USDA FoodData Central SR Legacy: Carrots, raw (1.0 medium)"
+363,363,1 unidad mediana,61.0,true,"USDA FoodData Central SR Legacy: Carrots, raw (1.0 medium)"
+364,364,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+365,365,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+366,366,1 unidad mediana,123.0,true,"USDA FoodData Central SR Legacy: Tomatoes, red, ripe, raw, year round average (1.0 medium whole)"
+367,367,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+368,368,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+369,369,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+370,370,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+371,371,1 unidad mediana,123.0,true,"USDA FoodData Central SR Legacy: Tomatoes, red, ripe, raw, year round average (1.0 medium whole)"
+372,372,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+373,373,1 porción,80.0,true,OMS/FAO: porción de fruta o verdura = 80 g
+374,374,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+375,375,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+376,376,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+377,377,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+378,378,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+379,379,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+380,380,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+381,381,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+382,382,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+383,383,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+384,384,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+385,385,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+386,386,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+387,387,1 taza,70.0,true,Estimado del equipo (revisar)
+388,388,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+389,389,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+390,390,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+391,391,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+392,392,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+393,393,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+394,394,2 cucharadas,22.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 tbsp × 2)"
+395,395,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+396,396,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+397,397,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+398,398,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+399,399,1/2 taza cocida,88.5,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, cooked, boiled, without salt (1.0 cup × 0.5)"
+400,400,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+401,401,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+402,402,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+403,403,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+404,404,1/4 taza,32.0,true,"USDA FoodData Central SR Legacy: Milk, dry, whole, with added vitamin D (0.25 cup)"
+405,405,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+406,406,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+407,407,1/4 taza seca (≈ 1/2 taza cocida),46.0,true,"USDA FoodData Central SR Legacy: Beans, kidney, all types, mature seeds, raw (1.0 cup × 0.25)"
+408,408,3 cucharadas,25.0,true,Estimado del equipo (revisar)
+409,409,1 porción pequeña,30.0,true,Estimado del equipo (revisar)
+410,410,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+411,411,1 porción pequeña,30.0,true,Estimado del equipo (revisar)
+412,412,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+413,413,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+414,414,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+415,415,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+416,416,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+417,417,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+418,418,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+419,419,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+420,420,1 porción pequeña,30.0,true,Estimado del equipo (revisar)
+421,421,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+422,422,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+423,423,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+424,424,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+425,425,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+426,426,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+427,427,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+428,428,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+429,429,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+430,430,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+431,431,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+432,432,1 clara,33.0,true,Estimado del equipo (revisar)
+433,433,1 unidad,50.0,true,"USDA FoodData Central SR Legacy: Egg, whole, raw, fresh (1.0 large)"
+434,434,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+435,435,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+436,436,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+437,437,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+438,438,5 unidades,45.0,true,Estimado del equipo (revisar)
+439,439,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+440,440,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+441,441,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+442,442,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+443,443,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+444,444,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+445,445,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+446,446,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+447,447,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+448,448,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+449,449,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+450,450,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+451,451,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+452,452,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+453,453,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+454,454,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+455,455,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+456,456,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+457,457,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+458,458,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+459,459,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+460,460,1 unidad,49.0,true,"USDA FoodData Central SR Legacy: Frankfurter, beef, unheated (1.0 hot dog)"
+461,461,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+462,462,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+463,463,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+464,464,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+465,465,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+466,466,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+467,467,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+468,468,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+469,469,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+470,470,1 unidad,50.0,true,"USDA FoodData Central SR Legacy: Egg, whole, raw, fresh (1.0 large)"
+471,471,1 yema,17.0,true,Estimado del equipo (revisar)
+472,472,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+473,473,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+474,474,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+475,475,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+476,476,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+477,477,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+478,478,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+479,479,1 unidad,50.0,true,"USDA FoodData Central SR Legacy: Egg, whole, raw, fresh (1.0 large)"
+480,480,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+481,481,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+482,482,1 porción pequeña,30.0,true,Estimado del equipo (revisar)
+483,483,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+484,484,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+485,485,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+486,486,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+487,487,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+488,488,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+489,489,1 porción pequeña,30.0,true,Estimado del equipo (revisar)
+490,490,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+491,491,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+492,492,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+493,493,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+494,494,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+495,495,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+496,496,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+497,497,1 porción pequeña,30.0,true,Estimado del equipo (revisar)
+498,498,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+499,499,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+500,500,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+501,501,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+502,502,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+503,503,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+504,504,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+505,505,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+506,506,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+507,507,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+508,508,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+509,509,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+510,510,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+511,511,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+512,512,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+513,513,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+514,514,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+515,515,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+516,516,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+517,517,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+518,518,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+519,519,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+520,520,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+521,521,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+522,522,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+523,523,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+524,524,1 unidad,49.0,true,"USDA FoodData Central SR Legacy: Frankfurter, beef, unheated (1.0 hot dog)"
+525,525,2 rebanadas,56.0,true,"USDA FoodData Central SR Legacy: Ham, sliced, regular (approximately 11% fat) (1.0 slice × 2)"
+526,526,1 unidad,49.0,true,"USDA FoodData Central SR Legacy: Frankfurter, beef, unheated (1.0 hot dog)"
+527,527,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+528,528,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+529,529,1 unidad,49.0,true,"USDA FoodData Central SR Legacy: Frankfurter, beef, unheated (1.0 hot dog)"
+530,530,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+531,531,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+532,532,1/2 lata,82.5,true,"USDA FoodData Central SR Legacy: Fish, tuna, light, canned in water, drained solids (1.0 can × 0.5)"
+533,533,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+534,534,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+535,535,1/2 lata,82.5,true,"USDA FoodData Central SR Legacy: Fish, tuna, light, canned in water, drained solids (1.0 can × 0.5)"
+536,536,1/2 lata,82.5,true,"USDA FoodData Central SR Legacy: Fish, tuna, light, canned in water, drained solids (1.0 can × 0.5)"
+537,537,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+538,538,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+539,539,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+540,540,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+541,541,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+542,542,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+543,543,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+544,544,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+545,545,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+546,546,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+547,547,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+548,548,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+549,549,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+550,550,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+551,551,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+552,552,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+553,553,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+554,554,1/2 lata,82.5,true,"USDA FoodData Central SR Legacy: Fish, tuna, light, canned in water, drained solids (1.0 can × 0.5)"
+555,555,1 cucharada colmada,30.0,true,Estimado del equipo (revisar)
+556,556,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+557,557,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+558,558,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+559,559,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+560,560,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+561,561,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+562,562,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+563,563,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+564,564,1 lata pequeña,92.0,true,"USDA FoodData Central SR Legacy: Fish, sardine, Atlantic, canned in oil, drained solids with bone (1.0 can (3.75 oz))"
+565,565,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+566,566,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+567,567,1 porción cocida (palma de la mano),86.0,true,"USDA FoodData Central SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted (0.5 breast, bone and s"
+568,568,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+569,569,1 lata pequeña,92.0,true,"USDA FoodData Central SR Legacy: Fish, sardine, Atlantic, canned in oil, drained solids with bone (1.0 can (3.75 oz))"
+570,570,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+571,571,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+572,572,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+573,573,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+574,574,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+575,575,1 porción cruda (≈ 85 g cocida),115.0,true,USDA: 4 oz crudo ≈ 3 oz (85 g) cocido
+576,576,1 cucharada,15.0,true,"USDA FoodData Central SR Legacy: Cream, fluid, heavy whipping (1.0 tbsp)"
+577,577,1/4 taza,63.0,true,Estimado del equipo (revisar)
+578,578,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+579,579,1 cucharada,15.0,true,"USDA FoodData Central SR Legacy: Cream, fluid, heavy whipping (1.0 tbsp)"
+580,580,1 porción,30.0,true,Estimado del equipo (revisar)
+581,581,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+582,582,1/4 taza,32.0,true,"USDA FoodData Central SR Legacy: Milk, dry, whole, with added vitamin D (0.25 cup)"
+583,583,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+584,584,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+585,585,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+586,586,1 cucharada,15.0,true,"USDA FoodData Central SR Legacy: Cream, fluid, heavy whipping (1.0 tbsp)"
+587,587,1/4 taza,32.0,true,"USDA FoodData Central SR Legacy: Milk, dry, whole, with added vitamin D (0.25 cup)"
+588,588,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+589,589,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+590,590,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+591,591,1/4 taza,32.0,true,"USDA FoodData Central SR Legacy: Milk, dry, whole, with added vitamin D (0.25 cup)"
+592,592,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+593,593,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+594,594,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+595,595,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+596,596,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+597,597,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+598,598,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+599,599,1 cucharada,10.0,true,"USDA FoodData Central SR Legacy: Cheese, cream (1.0 tbsp)"
+600,600,1 cucharada,10.0,true,"USDA FoodData Central SR Legacy: Cheese, cream (1.0 tbsp)"
+601,601,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+602,602,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+603,603,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+604,604,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+605,605,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+606,606,1/4 taza,32.0,true,"USDA FoodData Central SR Legacy: Milk, dry, whole, with added vitamin D (0.25 cup)"
+607,607,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+608,608,1 porción,30.0,true,Estimado del equipo (revisar)
+609,609,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+610,610,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+611,611,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+612,612,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+613,613,1 cucharada,10.0,true,"USDA FoodData Central SR Legacy: Cheese, cream (1.0 tbsp)"
+614,614,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+615,615,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+616,616,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+617,617,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+618,618,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+619,619,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+620,620,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+621,621,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+622,622,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+623,623,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+624,624,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+625,625,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+626,626,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+627,627,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+628,628,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+629,629,1 cucharada rallado,5.0,true,"USDA FoodData Central SR Legacy: Cheese, parmesan, grated (1.0 tbsp)"
+630,630,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+631,631,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+632,632,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+633,633,1 tajada,28.0,true,"USDA FoodData Central SR Legacy: Cheese, cheddar, sharp, sliced (1.0 slice (1 oz))"
+634,634,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+635,635,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+636,636,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+637,637,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+638,638,1 envase pequeño,170.0,true,"USDA FoodData Central SR Legacy: Yogurt, plain, whole milk (1.0 container (6 oz))"
+639,639,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+640,640,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+641,641,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+642,642,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+643,643,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+644,644,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+645,645,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+646,646,1 cucharada,5.4,true,"USDA FoodData Central SR Legacy: Cocoa, dry powder, unsweetened (1.0 tbsp)"
+647,647,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+648,648,1 cucharada,5.4,true,"USDA FoodData Central SR Legacy: Cocoa, dry powder, unsweetened (1.0 tbsp)"
+649,649,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+650,650,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+651,651,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+652,652,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+653,653,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+654,654,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+655,655,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+656,656,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+657,657,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+658,658,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+659,659,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+660,660,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+661,661,5 unidades,15.0,true,Estimado del equipo (revisar)
+662,662,5 unidades,15.0,true,Estimado del equipo (revisar)
+663,663,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+664,664,1 cucharadita,5.0,true,Estimado del equipo (revisar)
+665,665,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+666,666,1 cucharadita,5.0,true,"USDA FoodData Central SR Legacy: Butter, salted (1.0 pat)"
+667,667,1 cucharadita,5.0,true,"USDA FoodData Central SR Legacy: Butter, salted (1.0 pat)"
+668,668,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+669,669,1 cucharadita,5.0,true,"USDA FoodData Central SR Legacy: Butter, salted (1.0 pat)"
+670,670,1 cucharadita,4.3,true,USDA FoodData Central SR Legacy: Lard (1.0 tbsp × 0.3333)
+671,671,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+672,672,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+673,673,1 cucharada,15.0,true,"USDA FoodData Central SR Legacy: Mayonnaise dressing, no cholesterol (1.0 tbsp)"
+674,674,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+675,675,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+676,676,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+677,677,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+678,678,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+679,679,1 cucharadita,4.7,true,"USDA FoodData Central SR Legacy: Margarine, regular, 80% fat, composite, stick, with salt (1.0 tsp)"
+680,680,1 cucharadita,4.7,true,"USDA FoodData Central SR Legacy: Margarine, regular, 80% fat, composite, stick, with salt (1.0 tsp)"
+681,681,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+682,682,1 cucharada,16.0,true,"USDA FoodData Central SR Legacy: Peanut butter, smooth style, without salt (2.0 tbsp × 0.5)"
+683,683,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+684,684,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+685,685,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+686,686,1 cucharadita,4.7,true,"USDA FoodData Central SR Legacy: Margarine, regular, 80% fat, composite, stick, with salt (1.0 tsp)"
+687,687,1 cucharada,10.3,true,"USDA FoodData Central SR Legacy: Seeds, flaxseed (1.0 tbsp, whole)"
+688,688,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+689,689,1 cucharadita,5.0,true,Estimado del equipo (revisar)
+690,690,1 cucharada,10.3,true,"USDA FoodData Central SR Legacy: Seeds, flaxseed (1.0 tbsp, whole)"
+691,691,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+692,692,1 cucharada,10.3,true,"USDA FoodData Central SR Legacy: Seeds, flaxseed (1.0 tbsp, whole)"
+693,693,1 cucharada,10.3,true,"USDA FoodData Central SR Legacy: Seeds, flaxseed (1.0 tbsp, whole)"
+694,694,1 cucharada,10.3,true,"USDA FoodData Central SR Legacy: Seeds, flaxseed (1.0 tbsp, whole)"
+695,695,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+696,696,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+697,697,1 cucharada,10.3,true,"USDA FoodData Central SR Legacy: Seeds, flaxseed (1.0 tbsp, whole)"
+698,698,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+699,699,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+700,700,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+701,701,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+702,702,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+703,703,2 cucharadas,15.0,true,Estimado del equipo (revisar)
+704,704,2 cucharadas,15.0,true,Estimado del equipo (revisar)
+705,705,2 cucharadas,15.0,true,Estimado del equipo (revisar)
+706,706,1 porción,20.0,true,Estimado del equipo (revisar)
+707,707,1 porción,20.0,true,Estimado del equipo (revisar)
+708,708,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+709,709,1 unidad,3.0,true,Estimado del equipo (revisar)
+710,710,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+711,711,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+712,712,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+713,713,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+714,714,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+715,715,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+716,716,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+717,717,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+718,718,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+719,719,1 unidad,3.0,true,Estimado del equipo (revisar)
+720,720,1 unidad,3.0,true,Estimado del equipo (revisar)
+721,721,1 porción,20.0,true,Estimado del equipo (revisar)
+722,722,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+723,723,1 porción preparada,20.0,true,Estimado del equipo (revisar)
+724,724,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+725,725,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+726,726,1 porción,20.0,true,Estimado del equipo (revisar)
+727,727,1 porción,20.0,true,Estimado del equipo (revisar)
+728,728,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+729,729,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+730,730,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+731,731,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+732,732,1 unidad,3.0,true,Estimado del equipo (revisar)
+733,733,1 porción,20.0,true,Estimado del equipo (revisar)
+734,734,1 unidad,3.0,true,Estimado del equipo (revisar)
+735,735,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+736,736,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+737,737,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+738,738,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+739,739,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+740,740,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+741,741,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+742,742,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+743,743,1 cucharada,19.1,true,"USDA FoodData Central SR Legacy: Milk, canned, condensed, sweetened (1.0 fl oz × 0.5)"
+744,744,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+745,745,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+746,746,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+747,747,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+748,748,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+749,749,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+750,750,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+751,751,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+752,752,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+753,753,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+754,754,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+755,755,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+756,756,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+757,757,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+758,758,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+759,759,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+760,760,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+761,761,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+762,762,1/2 taza,66.0,true,"USDA FoodData Central SR Legacy: Ice creams, vanilla (1.0 serving 1/2 cup)"
+763,763,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+764,764,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+765,765,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+766,766,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+767,767,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+768,768,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+769,769,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+770,770,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+771,771,1 porción preparada,20.0,true,Estimado del equipo (revisar)
+772,772,1 cucharadita,4.2,true,"USDA FoodData Central SR Legacy: Sugars, granulated (1.0 tsp)"
+773,773,1 porción preparada,20.0,true,Estimado del equipo (revisar)
+774,774,1 porción preparada,20.0,true,Estimado del equipo (revisar)
+775,775,1 porción preparada,20.0,true,Estimado del equipo (revisar)
+776,776,1 porción preparada,20.0,true,Estimado del equipo (revisar)
+777,777,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+778,778,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+779,779,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+780,780,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+781,781,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+782,782,1 barra,44.0,true,"USDA FoodData Central SR Legacy: Candies, milk chocolate (1.0 bar (1.55 oz))"
+783,783,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+784,784,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+785,785,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+786,786,1 cucharada,20.0,true,USDA FoodData Central SR Legacy: Jams and preserves (1.0 tbsp)
+787,787,1 porción,80.0,true,Estimado del equipo (revisar)
+788,788,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+789,789,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+790,790,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+791,791,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+792,792,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+793,793,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+794,794,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+795,795,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+796,796,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+797,797,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+798,798,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+799,799,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+800,800,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+801,801,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+802,802,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+803,803,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+804,804,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+805,805,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+806,806,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+807,807,1 barra,44.0,true,"USDA FoodData Central SR Legacy: Candies, milk chocolate (1.0 bar (1.55 oz))"
+808,808,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+809,809,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+810,810,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+811,811,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+812,812,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+813,813,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+814,814,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+815,815,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+816,816,1 barra,44.0,true,"USDA FoodData Central SR Legacy: Candies, milk chocolate (1.0 bar (1.55 oz))"
+817,817,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+818,818,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+819,819,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+820,820,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+821,821,1 porción,60.0,true,Estimado del equipo (revisar)
+822,822,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+823,823,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+824,824,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+825,825,1 porción,60.0,true,Estimado del equipo (revisar)
+826,826,1 porción,60.0,true,Estimado del equipo (revisar)
+827,827,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+828,828,1 porción,60.0,true,Estimado del equipo (revisar)
+829,829,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+830,830,1 porción,60.0,true,Estimado del equipo (revisar)
+831,831,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+832,832,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+833,833,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+834,834,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+835,835,1 porción,60.0,true,Estimado del equipo (revisar)
+836,836,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+837,837,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+838,838,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+839,839,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+840,840,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+841,841,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+842,842,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+843,843,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+844,844,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+845,845,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+846,846,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+847,847,1 puñado,28.4,true,"USDA FoodData Central SR Legacy: Nuts, almonds (1.0 oz (23 whole kernels))"
+848,848,1 unidad,3.0,true,Estimado del equipo (revisar)
+849,849,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+850,850,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+851,851,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+852,852,1 porción,80.0,true,Estimado del equipo (revisar)
+853,853,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+854,854,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+855,855,1 porción,60.0,true,Estimado del equipo (revisar)
+856,856,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+857,857,1 porción,60.0,true,Estimado del equipo (revisar)
+858,858,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+859,859,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+860,860,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+861,861,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+862,862,1 porción,60.0,true,Estimado del equipo (revisar)
+863,863,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+864,864,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+865,865,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+866,866,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+867,867,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+868,868,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+869,869,3 tazas,24.0,true,"USDA FoodData Central SR Legacy: Snacks, popcorn, air-popped (1.0 cup × 3)"
+870,870,1 sobre o cucharada,10.0,true,Estimado del equipo (revisar)
+871,871,1 cucharada,17.0,true,USDA FoodData Central SR Legacy: Catsup (1.0 tbsp)
+872,872,1 cucharada,17.0,true,USDA FoodData Central SR Legacy: Catsup (1.0 tbsp)
+873,873,1 sobre o cucharada,10.0,true,Estimado del equipo (revisar)
+874,874,1 sobre o cucharada,10.0,true,Estimado del equipo (revisar)
+875,875,1 sobre o cucharada,10.0,true,Estimado del equipo (revisar)
+876,876,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+877,877,1 sobre o cucharada,10.0,true,Estimado del equipo (revisar)
+878,878,1 cucharada,17.0,true,USDA FoodData Central SR Legacy: Catsup (1.0 tbsp)
+879,879,1 funda pequeña,28.0,true,"USDA FoodData Central SR Legacy: Snacks, potato chips, plain, salted (22.0 chips)"
+880,880,1 taza,237.0,true,"USDA FoodData Central SR Legacy: Beverages, coffee, brewed, prepared with tap water (1.0 cup (8 fl oz))"
+881,881,1 sobre o cucharada,10.0,true,Estimado del equipo (revisar)
+882,882,1 sobre o cucharada,10.0,true,Estimado del equipo (revisar)
+883,883,1 sobre o cucharada,10.0,true,Estimado del equipo (revisar)
+884,884,1 cucharada,17.0,true,USDA FoodData Central SR Legacy: Catsup (1.0 tbsp)
+885,885,1 cucharada,17.0,true,USDA FoodData Central SR Legacy: Catsup (1.0 tbsp)
+886,886,1 cucharada,17.0,true,USDA FoodData Central SR Legacy: Catsup (1.0 tbsp)
+887,887,1 cucharada,17.0,true,USDA FoodData Central SR Legacy: Catsup (1.0 tbsp)
+888,888,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+889,889,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+890,890,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+891,891,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+892,892,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+893,893,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+894,894,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+895,895,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+896,896,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+897,897,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+898,898,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+899,899,1 cucharadita,3.0,true,Estimado del equipo (revisar)
+900,900,1 cucharadita,4.5,true,"USDA FoodData Central SR Legacy: Oil, olive, salad or cooking (1.0 tsp)"
+901,901,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+902,902,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+903,903,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+904,904,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+905,905,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+906,906,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+907,907,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+908,908,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+909,909,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+910,910,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+911,911,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+912,912,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+913,913,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+914,914,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+915,915,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+916,916,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+917,917,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+918,918,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+919,919,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+920,920,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+921,921,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+922,922,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+923,923,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+924,924,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+925,925,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+926,926,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+927,927,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+928,928,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+929,929,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+930,930,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+931,931,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+932,932,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+933,933,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+934,934,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+935,935,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+936,936,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+937,937,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+938,938,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+939,939,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+940,940,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+941,941,1 vaso,244.0,true,"USDA FoodData Central SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D (1.0 cup)"
+942,942,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+943,943,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+944,944,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+945,945,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+946,946,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+947,947,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+948,948,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+949,949,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+950,950,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+951,951,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+952,952,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+953,953,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+954,954,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+955,955,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+956,956,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+957,957,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+958,958,1 sobre,1.0,true,"USDA FoodData Central SR Legacy: Sweeteners, tabletop, sucralose, SPLENDA packets (1.0 serving 1 packet)"
+959,959,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+960,960,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+961,961,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+962,962,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+963,963,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+964,964,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+965,965,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+966,966,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+967,967,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+968,968,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+969,969,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+970,970,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+971,971,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+972,972,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+973,973,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+974,974,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+975,975,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+976,976,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+977,977,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+978,978,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+979,979,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+980,980,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+981,981,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+982,982,1 taza,237.0,true,"USDA FoodData Central SR Legacy: Beverages, coffee, brewed, prepared with tap water (1.0 cup (8 fl oz))"
+983,983,1 taza,237.0,true,"USDA FoodData Central SR Legacy: Beverages, coffee, brewed, prepared with tap water (1.0 cup (8 fl oz))"
+984,984,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+985,985,1 taza,237.0,true,"USDA FoodData Central SR Legacy: Beverages, coffee, brewed, prepared with tap water (1.0 cup (8 fl oz))"
+986,986,1 taza,237.0,true,"USDA FoodData Central SR Legacy: Beverages, coffee, brewed, prepared with tap water (1.0 cup (8 fl oz))"
+987,987,1 taza,237.0,true,"USDA FoodData Central SR Legacy: Beverages, coffee, brewed, prepared with tap water (1.0 cup (8 fl oz))"
+988,988,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+989,989,1 taza,237.0,true,"USDA FoodData Central SR Legacy: Beverages, coffee, brewed, prepared with tap water (1.0 cup (8 fl oz))"
+990,990,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+991,991,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+992,992,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+993,993,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+994,994,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+995,995,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+996,996,1 vaso,240.0,true,USDA: 1 taza = 8 fl oz ≈ 240 ml
+997,997,1 taza,237.0,true,"USDA FoodData Central SR Legacy: Beverages, coffee, brewed, prepared with tap water (1.0 cup (8 fl oz))"
