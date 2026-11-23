@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <!-- Parámetros del motor (ACT-05): un solo origen, incrustado en la DLL -->
+    <EmbeddedResource Include="Motor\parametros_motor.json" LogicalName="NutriApp.Domain.parametros_motor.json" />
+  </ItemGroup>
+
 </Project>

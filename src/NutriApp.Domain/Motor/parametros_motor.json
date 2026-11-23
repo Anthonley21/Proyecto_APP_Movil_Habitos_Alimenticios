@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "fecha": "2026-11-19",
+  "actividad": "ACT-05",
+  "alcance": {
+    "edad_min": 18,
+    "edad_max": 80,
+    "excluye": ["embarazo", "lactancia"],
+    "aviso": "NutriApp da sugerencias generales y no sustituye la indicación de un médico o nutricionista."
+  },
+  "tmb_mifflin_st_jeor": {
+    "fuente": "Mifflin MD et al. Am J Clin Nutr 1990;51(2):241-247. doi:10.1093/ajcn/51.2.241",
+    "coef_peso_kg": 10,
+    "coef_estatura_cm": 6.25,
+    "coef_edad_anios": -5,
+    "constante": { "M": 5, "F": -161 }
+  },
+  "factores_actividad": {
+    "fuente": "Multiplicadores estándar 1,2-1,9; rango PAL sostenible 1,2-2,5 (FAO/OMS/UNU)",
+    "niveles": [
+      { "clave": "sedentario", "factor": 1.2,   "descripcion": "Trabajo sentado, sin ejercicio" },
+      { "clave": "ligero",     "factor": 1.375, "descripcion": "Ejercicio ligero 1 a 3 días por semana" },
+      { "clave": "moderado",   "factor": 1.55,  "descripcion": "Ejercicio moderado 3 a 5 días por semana" },
+      { "clave": "activo",     "factor": 1.725, "descripcion": "Ejercicio intenso 6 a 7 días por semana" },
+      { "clave": "muy_activo", "factor": 1.9,   "descripcion": "Trabajo físico pesado o entrenamiento dos veces al día" }
+    ]
+  },
+  "objetivo": {
+    "fuente": "NHLBI: déficit de 500-1000 kcal/día; 'subir' es decisión de diseño",
+    "ajuste_kcal": { "bajar": -500, "mantener": 0, "subir": 300 },
+    "minimo_kcal": { "F": 1200, "M": 1500 }
+  },
+  "macronutrientes": {
+    "fuente": "AMDR, National Academies (IOM 2002/2005): CHO 45-65 %, PRO 10-35 %, GRA 20-35 %",
+    "porcentaje_energia": { "carbohidratos": 0.50, "proteina": 0.20, "grasa": 0.30 },
+    "kcal_por_gramo": { "carbohidratos": 4, "proteina": 4, "grasa": 9 },
+    "azucares_libres_max_pct_energia": 0.10,
+    "fuente_azucares": "OMS 2015, Guideline: sugars intake for adults and children"
+  },
+  "comidas": {
+    "fuente": "AESAN (España), campaña 'No te lo puedes saltar'; coincide con la tabla TiposComida",
+    "reparto": [
+      { "id": 1, "nombre": "desayuno", "porcentaje": 0.25 },
+      { "id": 2, "nombre": "almuerzo", "porcentaje": 0.35 },
+      { "id": 3, "nombre": "merienda", "porcentaje": 0.10 },
+      { "id": 4, "nombre": "cena",     "porcentaje": 0.30 }
+    ],
+    "tolerancia_energia": { "principal": 0.10, "ampliada": 0.15, "minimo_candidatos": 3 },
+    "alternativas_por_comida": { "min": 3, "max": 5 }
+  },
+  "reglas_salud": {
+    "diabetes": {
+      "campo_perfil": "TieneDiabetes",
+      "excluir_categoria_ig": ["alto"],
+      "ig_alto_desde": 70,
+      "ig_bajo_hasta": 55,
+      "fuente_ig": "ISO 26642:2010",
+      "azucares_alto_desde": { "100 g": 15.0, "100 ml": 7.5 },
+      "fuente_azucares": "Semáforo nutricional de Ecuador (Acuerdo Ministerial 4522 y reformas). 7,5 g/100 ml pendiente de verificar",
+      "excluir_azucares_sin_dato": true,
+      "ig_sin_dato": "permitir_con_menor_prioridad"
+    },
+    "hipertension": {
+      "campo_perfil": "TieneHipertension",
+      "sodio_alto_desde_mg": { "100 g": 600, "100 ml": 600 },
+      "fuente_sodio": "Acuerdo Ministerial 4832 (reforma del Reglamento de Etiquetado, Tabla 1)",
+      "excluir_sodio_sin_dato": true
+    },
+    "alergenos": {
+      "tabla_perfil": "PerfilAlergeno",
+      "tipo": "exclusion_dura",
+      "lista": ["gluten", "lácteos", "huevo", "maní", "frutos secos", "pescado", "mariscos", "soya", "ajonjolí"]
+    }
+  },
+  "limites_diarios_progreso": {
+    "sodio_max_mg": 2000,
+    "fuente_sodio": "OMS: menos de 2000 mg/día de sodio (5 g de sal)"
+  },
+  "catalogo": {
+    "usar_solo_apto_motor": true
+  },
+  "caso_prueba_act08": {
+    "perfil": { "sexo": "F", "edad": 30, "peso_kg": 70, "estatura_cm": 160, "actividad": "ligero", "objetivo": "bajar" },
+    "esperado_kcal": 1410,
+    "tolerancia_kcal": 1
+  }
+}
