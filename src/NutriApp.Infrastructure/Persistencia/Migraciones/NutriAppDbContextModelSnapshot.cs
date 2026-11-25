@@ -482,7 +482,7 @@ namespace NutriApp.Infrastructure.Persistencia.Migraciones
                         .HasColumnType("numeric(5,1)");
 
                     b.Property<decimal>("FactorActividad")
-                        .HasColumnType("numeric(3,2)");
+                        .HasColumnType("numeric(4,3)");
 
                     b.Property<DateOnly>("FechaNacimiento")
                         .HasColumnType("date");
