@@ -12,6 +12,9 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
     <PackageReference Include="xunit" Version="2.9.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+    <!-- ACT-09: pruebas de la API completa en memoria, sin Neon -->
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.*" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\NutriApp.Domain\NutriApp.Domain.csproj" />
     <ProjectReference Include="..\..\src\NutriApp.Infrastructure\NutriApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\NutriApp.Api\NutriApp.Api.csproj" />
   </ItemGroup>
 
 </Project>

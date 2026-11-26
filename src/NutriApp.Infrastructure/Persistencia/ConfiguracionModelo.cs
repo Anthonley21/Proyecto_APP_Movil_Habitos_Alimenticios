@@ -183,7 +183,7 @@ internal static class ConfiguracionModelo
             e.Property(x => x.FechaNacimiento).HasColumnType("date");
             e.Property(x => x.EstaturaCm).HasColumnType("numeric(5,1)");
             e.Property(x => x.PesoKg).HasColumnType("numeric(5,1)");
-            e.Property(x => x.FactorActividad).HasColumnType("numeric(3,2)");
+            e.Property(x => x.FactorActividad).HasColumnType("numeric(4,3)");   // ACT-09: 1,375 y 1,725 necesitan 3 decimales
             e.Property(x => x.Objetivo).HasMaxLength(10);
             e.Property(x => x.ActualizadoEn).HasColumnType("timestamptz");
             e.HasOne<IdentityUser>().WithOne().HasForeignKey<PerfilUsuario>(x => x.UsuarioId).OnDelete(DeleteBehavior.Cascade);

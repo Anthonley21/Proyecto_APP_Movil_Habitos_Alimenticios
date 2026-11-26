@@ -1,6 +1,63 @@
-@NutriApp.Api_HostAddress = http://localhost:5222
+### NutriApp API · pruebas manuales (Visual Studio o VS Code con la extensión REST Client)
+### Arranca la API (perfil http) y ejecuta las peticiones en orden con "Send Request".
 
-GET {{NutriApp.Api_HostAddress}}/weatherforecast/
-Accept: application/json
+@api = http://localhost:5222
+
+### 1. Registro
+POST {{api}}/api/auth/registro
+Content-Type: application/json
+
+{
+  "correo": "ana@ejemplo.com",
+  "contrasena": "ClaveSegura2026",
+  "aceptaTratamientoDatos": true
+}
+
+### 2. Inicio de sesión → copia el "token" de la respuesta en la variable de abajo
+# @name login
+POST {{api}}/api/auth/login
+Content-Type: application/json
+
+{
+  "correo": "ana@ejemplo.com",
+  "contrasena": "ClaveSegura2026"
+}
 
 ###
+@token = {{login.response.body.$.token}}
+
+### 3. Crear perfil (caso del plan: mujer, 30 años, 70 kg, 160 cm, actividad ligera, bajar)
+POST {{api}}/api/perfil
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "sexo": "F",
+  "fechaNacimiento": "1996-05-10",
+  "estaturaCm": 160,
+  "pesoKg": 70,
+  "nivelActividad": "ligero",
+  "objetivo": "bajar",
+  "tieneDiabetes": false,
+  "tieneHipertension": false,
+  "alergenoIds": [2]
+}
+
+### 4. Ver perfil
+GET {{api}}/api/perfil
+Authorization: Bearer {{token}}
+
+### 5. Requerimiento diario (≈ 1410 kcal)
+GET {{api}}/api/perfil/requerimiento
+Authorization: Bearer {{token}}
+
+### 6. Sin token → 401
+GET {{api}}/api/perfil
+
+### 7. Mis datos
+GET {{api}}/api/cuenta/mis-datos
+Authorization: Bearer {{token}}
+
+### 8. Cerrar sesión (el token deja de servir)
+POST {{api}}/api/cuenta/cerrar-sesion
+Authorization: Bearer {{token}}
