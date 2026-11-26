@@ -170,6 +170,7 @@ internal static class ConfiguracionModelo
             e.ToTable("PerfilesUsuario", t =>
             {
                 t.HasCheckConstraint("CK_PerfilesUsuario_Sexo", @"""Sexo"" IN ('F','M')");
+                t.HasCheckConstraint("CK_PerfilesUsuario_Edad", @"""Edad"" BETWEEN 18 AND 80");   // ACT-09.1
                 t.HasCheckConstraint("CK_PerfilesUsuario_EstaturaCm", @"""EstaturaCm"" BETWEEN 100 AND 250");
                 t.HasCheckConstraint("CK_PerfilesUsuario_PesoKg", @"""PesoKg"" BETWEEN 25 AND 300");
                 t.HasCheckConstraint("CK_PerfilesUsuario_FactorActividad", @"""FactorActividad"" BETWEEN 1.2 AND 1.9");
@@ -180,7 +181,8 @@ internal static class ConfiguracionModelo
             e.Property(x => x.UsuarioId).HasColumnType("text");
             e.HasIndex(x => x.UsuarioId).IsUnique();
             e.Property(x => x.Sexo).HasMaxLength(1).HasColumnType("char(1)");
-            e.Property(x => x.FechaNacimiento).HasColumnType("date");
+            e.Property(x => x.Edad);                                               // ACT-09.1: edad en años (integer), no fecha
+            e.Property(x => x.EdadRegistradaEn).HasColumnType("date");
             e.Property(x => x.EstaturaCm).HasColumnType("numeric(5,1)");
             e.Property(x => x.PesoKg).HasColumnType("numeric(5,1)");
             e.Property(x => x.FactorActividad).HasColumnType("numeric(4,3)");   // ACT-09: 1,375 y 1,725 necesitan 3 decimales

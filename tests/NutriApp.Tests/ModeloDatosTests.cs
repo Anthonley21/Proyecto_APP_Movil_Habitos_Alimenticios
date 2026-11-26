@@ -42,13 +42,13 @@ public class ModeloDatosTests
     }
 
     [Fact]
-    public void Tiene_las_17_restricciones_CHECK_del_modelo()
+    public void Tiene_las_18_restricciones_CHECK_del_modelo()   // ACT-09.1: + CK_PerfilesUsuario_Edad
     {
         using var db = CrearContexto();
         // Las restricciones CHECK solo se guardan en el modelo de diseño (el de las migraciones)
         var modelo = db.GetService<IDesignTimeModel>().Model;
         var checks = modelo.GetEntityTypes().SelectMany(e => e.GetCheckConstraints()).Count();
-        Assert.Equal(17, checks);
+        Assert.Equal(18, checks);
     }
 
     [Fact]

@@ -93,7 +93,7 @@ public class FabricaApi : WebApplicationFactory<Program>
     public static object PerfilDelPlan(DateOnly hoy, decimal pesoKg = 70, int[]? alergenos = null) => new
     {
         sexo = "F",
-        fechaNacimiento = hoy.AddYears(-30).AddDays(-1).ToString("yyyy-MM-dd"),
+        edad = 30,
         estaturaCm = 160m,
         pesoKg,
         nivelActividad = "ligero",

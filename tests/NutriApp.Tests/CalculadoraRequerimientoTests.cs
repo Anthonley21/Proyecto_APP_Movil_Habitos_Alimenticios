@@ -157,22 +157,17 @@ public class CalculadoraRequerimientoTests
 
     // ---------- Edad y perfil guardado ----------
 
+    // ACT-09.1: la edad se guarda con la fecha en que se indicó y sube un año en cada aniversario.
     [Theory]
-    [InlineData("1996-11-23", "2026-11-22", 29)]   // un día antes del cumpleaños
-    [InlineData("1996-11-23", "2026-11-23", 30)]   // el día del cumpleaños
-    [InlineData("2000-02-29", "2026-02-28", 25)]   // nacido un 29 de febrero
-    [InlineData("2000-02-29", "2026-03-01", 26)]
-    [InlineData("2000-02-29", "2028-02-29", 28)]
-    public void Calcula_la_edad_cumplida(string nacimiento, string hoy, int esperada)
+    [InlineData(30, "2026-11-25", "2026-11-25", 30)]   // el mismo día
+    [InlineData(30, "2026-11-25", "2027-11-24", 30)]   // un día antes del aniversario
+    [InlineData(30, "2026-11-25", "2027-11-25", 31)]   // el día del aniversario
+    [InlineData(30, "2026-11-25", "2031-06-01", 34)]   // varios años después
+    [InlineData(25, "2028-02-29", "2029-03-01", 26)]   // registrada un 29 de febrero
+    [InlineData(30, "2026-11-25", "2026-01-01", 30)]   // fecha anterior al registro: no resta
+    public void Calcula_la_edad_actual(int edad, string registradaEn, string hoy, int esperada)
     {
-        Assert.Equal(esperada, CalculadoraRequerimiento.CalcularEdad(Fecha(nacimiento), Fecha(hoy)));
-    }
-
-    [Fact]
-    public void Rechaza_fecha_de_nacimiento_futura()
-    {
-        Assert.Throws<ArgumentOutOfRangeException>(() =>
-            CalculadoraRequerimiento.CalcularEdad(new DateOnly(2030, 1, 1), new DateOnly(2026, 11, 22)));
+        Assert.Equal(esperada, CalculadoraRequerimiento.EdadActual(edad, Fecha(registradaEn), Fecha(hoy)));
     }
 
     [Fact]
@@ -181,7 +176,8 @@ public class CalculadoraRequerimientoTests
         var perfil = new PerfilUsuario
         {
             Sexo = "F",
-            FechaNacimiento = new DateOnly(1996, 5, 10),   // 30 años al 22/11/2026
+            Edad = 30,
+            EdadRegistradaEn = new DateOnly(2026, 11, 22),
             PesoKg = 70m,
             EstaturaCm = 160m,
             FactorActividad = 1.375m,

@@ -48,9 +48,10 @@ public sealed record PerfilSolicitud
     [RegularExpression("^[FMfm]$", ErrorMessage = "El sexo debe ser F o M.")]
     public string Sexo { get; init; } = string.Empty;
 
-    /// <summary>Formato yyyy-MM-dd. Edad permitida: 18 a 80 años.</summary>
-    [Required(ErrorMessage = "La fecha de nacimiento es obligatoria.")]
-    public DateOnly? FechaNacimiento { get; init; }
+    /// <summary>Años cumplidos (18 a 80). ACT-09.1: reemplaza a la fecha de nacimiento.</summary>
+    [Required(ErrorMessage = "La edad es obligatoria.")]
+    [Range(18, 80, ErrorMessage = "NutriApp es para personas de 18 a 80 años.")]
+    public int? Edad { get; init; }
 
     [Required(ErrorMessage = "La estatura es obligatoria.")]
     [Range(100, 250, ErrorMessage = "La estatura debe estar entre 100 y 250 cm.")]
@@ -82,7 +83,6 @@ public sealed record AlergenoRespuesta(int Id, string Nombre);
 
 public sealed record PerfilRespuesta(
     string Sexo,
-    DateOnly FechaNacimiento,
     int Edad,
     decimal EstaturaCm,
     decimal PesoKg,
