@@ -88,7 +88,18 @@ public sealed class PerfilController(NutriAppDbContext db, TimeProvider reloj) :
     public async Task<IActionResult> ObtenerRequerimiento()
     {
         var perfil = await BuscarPerfil();
-        return perfil is null ? PerfilNoExiste() : Ok(CalculadoraRequerimiento.Calcular(perfil, Hoy));
+        if (perfil is null)
+            return PerfilNoExiste();
+        try
+        {
+            return Ok(CalculadoraRequerimiento.Calcular(perfil, Hoy));
+        }
+        catch (ArgumentOutOfRangeException)
+        {
+            // Pasaron los años y la edad actual salió del rango 18–80: se pide confirmarla con PUT.
+            return Problem(statusCode: StatusCodes.Status409Conflict, title: "Confirma tu edad",
+                detail: "Tu edad actual está fuera del rango de NutriApp (18 a 80 años). Actualízala con PUT /api/perfil.");
+        }
     }
 
     // ---------------------------------------------------------------------------------------------
@@ -120,19 +131,10 @@ public sealed class PerfilController(NutriAppDbContext db, TimeProvider reloj) :
                 $"Nivel de actividad no válido. Usa: {string.Join(", ", p.NivelesActividad.Select(n => n.Clave))}.");
         }
 
-        int edad = 0;
-        if (s.FechaNacimiento is { } nacimiento)
-        {
-            if (nacimiento > Hoy)
-                ModelState.AddModelError(nameof(s.FechaNacimiento), "La fecha de nacimiento está en el futuro.");
-            else
-            {
-                edad = CalculadoraRequerimiento.CalcularEdad(nacimiento, Hoy);
-                if (edad < p.EdadMin || edad > p.EdadMax)
-                    ModelState.AddModelError(nameof(s.FechaNacimiento),
-                        $"NutriApp es para personas de {p.EdadMin} a {p.EdadMax} años.");
-            }
-        }
+        // ACT-09.1: el [Range(18, 80)] del contrato ya filtra; esto mantiene la regla atada a ACT-05.
+        int edad = s.Edad ?? 0;
+        if (edad < p.EdadMin || edad > p.EdadMax)
+            ModelState.AddModelError(nameof(s.Edad), $"NutriApp es para personas de {p.EdadMin} a {p.EdadMax} años.");
 
         var ids = (s.AlergenoIds ?? []).Distinct().ToArray();
         if (ids.Length > 0)
@@ -162,7 +164,14 @@ public sealed class PerfilController(NutriAppDbContext db, TimeProvider reloj) :
     private void Copiar(PerfilSolicitud s, double factor, PerfilUsuario perfil)
     {
         perfil.Sexo = s.Sexo.Trim().ToUpperInvariant();
-        perfil.FechaNacimiento = s.FechaNacimiento!.Value;
+        // ACT-09.1: la fecha de registro solo cambia si cambia la edad (o si es un perfil nuevo).
+        var edadActual = perfil.Id == 0 ? (int?)null
+            : CalculadoraRequerimiento.EdadActual(perfil.Edad, perfil.EdadRegistradaEn, Hoy);
+        if (edadActual != s.Edad)
+        {
+            perfil.Edad = s.Edad!.Value;
+            perfil.EdadRegistradaEn = Hoy;
+        }
         perfil.EstaturaCm = Math.Round(s.EstaturaCm!.Value, 1);   // numeric(5,1)
         perfil.PesoKg = Math.Round(s.PesoKg!.Value, 1);
         perfil.FactorActividad = (decimal)factor;
@@ -204,7 +213,7 @@ internal static class Mapeo
         var niveles = ParametrosMotor.Predeterminados.NivelesActividad;
         var nivel = niveles.MinBy(n => Math.Abs(n.Factor - (double)p.FactorActividad))!.Clave;
 
-        return new PerfilRespuesta(p.Sexo, p.FechaNacimiento, CalculadoraRequerimiento.CalcularEdad(p.FechaNacimiento, hoy),
+        return new PerfilRespuesta(p.Sexo, CalculadoraRequerimiento.EdadActual(p.Edad, p.EdadRegistradaEn, hoy),
             p.EstaturaCm, p.PesoKg, nivel, p.FactorActividad, p.Objetivo, p.TieneDiabetes, p.TieneHipertension,
             alergenos, p.ActualizadoEn);
     }

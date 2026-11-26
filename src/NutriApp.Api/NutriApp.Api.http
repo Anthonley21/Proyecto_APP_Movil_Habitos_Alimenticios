@@ -33,7 +33,7 @@ Content-Type: application/json
 
 {
   "sexo": "F",
-  "fechaNacimiento": "1996-05-10",
+  "edad": 30,
   "estaturaCm": 160,
   "pesoKg": 70,
   "nivelActividad": "ligero",

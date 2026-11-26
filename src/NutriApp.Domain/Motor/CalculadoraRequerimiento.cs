@@ -12,10 +12,10 @@ namespace NutriApp.Domain.Motor;
 public sealed record DatosRequerimiento(
     string Sexo, int Edad, double PesoKg, double EstaturaCm, double FactorActividad, string Objetivo)
 {
-    /// <summary>Arma los datos desde el perfil guardado, calculando la edad a la fecha indicada.</summary>
+    /// <summary>Arma los datos desde el perfil guardado, con la edad actualizada a la fecha indicada.</summary>
     public static DatosRequerimiento DesdePerfil(PerfilUsuario perfil, DateOnly hoy) => new(
         perfil.Sexo,
-        CalculadoraRequerimiento.CalcularEdad(perfil.FechaNacimiento, hoy),
+        CalculadoraRequerimiento.EdadActual(perfil.Edad, perfil.EdadRegistradaEn, hoy),
         (double)perfil.PesoKg,
         (double)perfil.EstaturaCm,
         (double)perfil.FactorActividad,
@@ -102,15 +102,19 @@ public static class CalculadoraRequerimiento
             Comidas: comidas);
     }
 
-    /// <summary>Años cumplidos a la fecha <paramref name="hoy"/> (un 29 de febrero cumple el 1 de marzo en años no bisiestos).</summary>
-    public static int CalcularEdad(DateOnly nacimiento, DateOnly hoy)
+    /// <summary>
+    /// ACT-09.1 · Edad a la fecha <paramref name="hoy"/>: la edad que indicó la persona más un año por cada
+    /// aniversario completo del día en que la indicó. Un registro hecho un 29 de febrero cumple el 1 de marzo
+    /// en años no bisiestos. Si <paramref name="hoy"/> es anterior al registro, se devuelve la edad tal cual.
+    /// </summary>
+    public static int EdadActual(int edadRegistrada, DateOnly registradaEn, DateOnly hoy)
     {
-        if (nacimiento > hoy)
-            throw new ArgumentOutOfRangeException(nameof(nacimiento), "La fecha de nacimiento está en el futuro.");
-        int edad = hoy.Year - nacimiento.Year;
-        if (hoy.Month < nacimiento.Month || (hoy.Month == nacimiento.Month && hoy.Day < nacimiento.Day))
-            edad--;
-        return edad;
+        if (hoy <= registradaEn)
+            return edadRegistrada;
+        int anios = hoy.Year - registradaEn.Year;
+        if (hoy.Month < registradaEn.Month || (hoy.Month == registradaEn.Month && hoy.Day < registradaEn.Day))
+            anios--;
+        return edadRegistrada + anios;
     }
 
     private static Macronutrientes Macros(double kcal, ParametrosMotor p) => new(

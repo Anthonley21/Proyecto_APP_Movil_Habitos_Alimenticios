@@ -15,8 +15,11 @@ public class PerfilUsuario
     /// <summary>'F' o 'M' (Mifflin-St Jeor)</summary>
     public string Sexo { get; set; } = string.Empty;
 
-    /// <summary>Para calcular la edad</summary>
-    public DateOnly FechaNacimiento { get; set; }
+    /// <summary>Años cumplidos que indicó la persona (18 a 80). ACT-09.1: se pide la edad, no la fecha de nacimiento.</summary>
+    public int Edad { get; set; }
+
+    /// <summary>Día en que se registró o cambió <see cref="Edad"/>; con él se suma un año por cada aniversario.</summary>
+    public DateOnly EdadRegistradaEn { get; set; }
 
     /// <summary>Estatura [cm]</summary>
     public decimal EstaturaCm { get; set; }

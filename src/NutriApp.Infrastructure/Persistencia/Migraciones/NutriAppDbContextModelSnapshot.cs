@@ -478,14 +478,17 @@ namespace NutriApp.Infrastructure.Persistencia.Migraciones
                     b.Property<DateTime>("ActualizadoEn")
                         .HasColumnType("timestamptz");
 
+                    b.Property<int>("Edad")
+                        .HasColumnType("integer");
+
+                    b.Property<DateOnly>("EdadRegistradaEn")
+                        .HasColumnType("date");
+
                     b.Property<decimal>("EstaturaCm")
                         .HasColumnType("numeric(5,1)");
 
                     b.Property<decimal>("FactorActividad")
                         .HasColumnType("numeric(4,3)");
-
-                    b.Property<DateOnly>("FechaNacimiento")
-                        .HasColumnType("date");
 
                     b.Property<string>("Objetivo")
                         .IsRequired()
@@ -517,6 +520,8 @@ namespace NutriApp.Infrastructure.Persistencia.Migraciones
 
                     b.ToTable("PerfilesUsuario", null, t =>
                         {
+                            t.HasCheckConstraint("CK_PerfilesUsuario_Edad", "\"Edad\" BETWEEN 18 AND 80");
+
                             t.HasCheckConstraint("CK_PerfilesUsuario_EstaturaCm", "\"EstaturaCm\" BETWEEN 100 AND 250");
 
                             t.HasCheckConstraint("CK_PerfilesUsuario_FactorActividad", "\"FactorActividad\" BETWEEN 1.2 AND 1.9");
