@@ -46,7 +46,12 @@
       { "id": 4, "nombre": "cena",     "porcentaje": 0.30 }
     ],
     "tolerancia_energia": { "principal": 0.10, "ampliada": 0.15, "minimo_candidatos": 3 },
-    "alternativas_por_comida": { "min": 3, "max": 5 }
+    "alternativas_por_comida": { "min": 3, "max": 5 },
+    "multiplicadores_porcion": {
+      "nota": "ACT-10: la porción típica se puede ajustar a media, una, una y media o dos para acercarse a la meta de la comida",
+      "alimento": [0.5, 1, 1.5, 2],
+      "plato": [0.5, 1, 1.5]
+    }
   },
   "reglas_salud": {
     "diabetes": {
@@ -69,7 +74,25 @@
     "alergenos": {
       "tabla_perfil": "PerfilAlergeno",
       "tipo": "exclusion_dura",
-      "lista": ["gluten", "lácteos", "huevo", "maní", "frutos secos", "pescado", "mariscos", "soya", "ajonjolí"]
+      "lista": ["gluten", "lácteos", "huevo", "maní", "frutos secos", "pescado", "mariscos", "soya", "ajonjolí"],
+      "palabras_clave": {
+        "nota": "ACT-10: las mismas reglas de ACT-06 (referencias/alergenos_reglas.csv). Se aplican al nombre del plato y al texto de TODOS sus ingredientes, también a los que no se enlazaron a un alimento (condimentos, ingredientes sin equivalente). Texto en minúsculas y sin tildes. En ACT-10 se agregaron (al final de cada patrón, después de la última regla de ACT-06) palabras del vocabulario de las recetas: nata, parmesano, cerveza, salsa de soja, gambas, merluza, mazapán, cacahuete, etc. Y se quitó la excepción 'crema, de avellana' de lácteos: esas cremas (Nutella y similares) llevan leche. En el NOMBRE de un alimento la excepción anula la regla (como en ACT-06); en una LÍNEA de ingredientes solo se ignora la parte del texto que es excepción.",
+        "reglas": [
+        { "id": 1, "alergeno": "gluten", "patron": "trigo|harina(?! de (maiz|arroz|yuca|platano|camote|amaranto|quinua|haba|soya|garbanzo|cauca|achira|banano|almendra|coco))|\\bpan\\b|^pan,|fideo|pasta(?! de (frejol|mani|tomate|tamarindo|ajo|aji))|tallarin|galleta|cebada|machica|pinol|centeno|avena|empanada|bizcocho|granola|wafer|pizza|^torta|pastel|premezcla|emborrajado|\\bwheat\\b|barley|\\brye\\b|\\boats?\\b|cereal|cerveza|hojaldr|salsa de so(j|y)a|worcestershire|perrins|bulgur|crutones|picatoste|cuscus|\\bsemola|seitan|panko|espelta|\\bmalta\\b", "excepcion": "sin gluten|gluten free|de arroz|fideo de arroz|pan de yuca|pan, de yuca|de morocho|de verde|de maiz|pan de almidon" },
+        { "id": 2, "alergeno": "lácteos", "patron": "leche|queso|yogur|mantequilla|crema de leche|crema, de leche|manjar|dulce de leche|helado de crema|suero|lacteo|\\bmilk\\b|cheese|butter|cream|whey|yogurt|pan de yuca|pan, de yuca|\\bnatas?\\b|parmesan|mozzarella|mozarela|ricotta|mascarpone|kefir|roquefort|natilla|crema agria|creme fraiche|bechamel|gouda|cheddar|emmental|gruyer|manchego|provolone|burrata|\\bfeta\\b|\\bghee\\b|cuajada|requeson", "excepcion": "leche de coco|leche de soya|soya, leche|bebida de (soya|almendra|avena|arroz|coco)|mantequilla,? (de )?(mani|almendra|cacao)|cashew|peanut butter|cocoa butter|queso de chancho|sabor a queso|sabor artificial a queso" },
+        { "id": 3, "alergeno": "huevo", "patron": "huevo|yema|clara|mayonesa|merengue|espumilla|\\begg\\b|eggs|alioli|ali oli", "excepcion": "huevos de pescado|eggplant" },
+        { "id": 4, "alergeno": "maní", "patron": "\\bmani\\b|mani,|cacahuate|peanut|cacahuete", "excepcion": "" },
+        { "id": 5, "alergeno": "frutos secos", "patron": "almendra|\\bnuez|nueces|avellana|macadamia|pistacho|pecana|maranon|castana|cashew|almond|walnut|hazelnut|pistachio|pecan|brazil|mazapan|turron|nutella|praline|anacardo|\\bpinon", "excepcion": "nuez moscada|nutmeg" },
+        { "id": 6, "alergeno": "pescado", "patron": "pescado|\\batun|sardina|salmon|trucha|tilapia|corvina|bacalao|dorado|picudo|robalo|^sierra|\\bmero\\b|lenguado|bonito|banderon|pampanito|\\btoyo|albacora|\\bfish\\b|\\btuna\\b|sardine|trout|merluza|anchoa|boqueron|lubina|caballa|surimi|\\brape\\b|dorada|rodaballo|besugo|emperador|pez espada|jurel|arenque|pescadilla|\\bbacalao", "excepcion": "prickly|nopal" },
+        { "id": 7, "alergeno": "mariscos", "patron": "camaron|langost|cangrejo|concha|ostion|ostra|mejillon|calamar|pulpo|almeja|cochas|jaiba|shrimp|crab|lobster|clam|oyster|mussel|squid|octopus|crustacean|mollus|\\bgambas?\\b|vieira|berberecho|sepia|chipiron|\\bnavajas?\\b|percebe|cigala|bogavante|carabinero|zamburi|necora", "excepcion": "" },
+        { "id": 8, "alergeno": "soya", "patron": "soya|soja|tofu|\\bsoy\\b|soybean|\\bmiso\\b|edamame|tempeh", "excepcion": "aceite, de soya" },
+        { "id": 9, "alergeno": "ajonjolí", "patron": "ajonjoli|sesamo|tahini|sesame|\\btahin\\b|gomasio", "excepcion": "" }
+        ]
+      },
+      "marca_confirmar_etiqueta": {
+        "nota": "ACT-06 marcó estos productos de marca para confirmar 'puede contener' en la etiqueta: si la persona tiene alguna alergia, no se recomiendan",
+        "grupos": ["CER", "SNA", "AZU", "BEB", "LAC"]
+      }
     }
   },
   "limites_diarios_progreso": {
@@ -77,7 +100,13 @@
     "fuente_sodio": "OMS: menos de 2000 mg/día de sodio (5 g de sal)"
   },
   "catalogo": {
-    "usar_solo_apto_motor": true
+    "usar_solo_apto_motor": true,
+    "platos": {
+      "nota": "ACT-10: platos que no se recomiendan por calidad del dato (ACT-06)",
+      "excluir_clasificacion": ["excluida (ingredientes no disponibles)"],
+      "excluir_calidad_nutricional": ["baja"],
+      "excluir_revisar": true
+    }
   },
   "caso_prueba_act08": {
     "perfil": { "sexo": "F", "edad": 30, "peso_kg": 70, "estatura_cm": 160, "actividad": "ligero", "objetivo": "bajar" },

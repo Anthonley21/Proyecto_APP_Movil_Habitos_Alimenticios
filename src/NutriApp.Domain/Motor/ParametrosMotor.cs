@@ -47,13 +47,16 @@ public sealed class ParametrosMotor
     /// <summary>Los parámetros del JSON incrustado (se leen una sola vez).</summary>
     public static ParametrosMotor Predeterminados { get; } = CargarIncrustado();
 
-    private static ParametrosMotor CargarIncrustado()
+    private static ParametrosMotor CargarIncrustado() => DesdeJson(LeerJsonIncrustado());
+
+    /// <summary>Texto de parametros_motor.json incrustado (también lo usa <see cref="ParametrosFiltro"/>, ACT-10).</summary>
+    internal static string LeerJsonIncrustado()
     {
         using var stream = typeof(ParametrosMotor).Assembly.GetManifestResourceStream(NombreRecurso)
             ?? throw new InvalidOperationException(
                 $"No se encontró el recurso '{NombreRecurso}'. Revisa el <EmbeddedResource> de NutriApp.Domain.csproj.");
         using var lector = new StreamReader(stream);
-        return DesdeJson(lector.ReadToEnd());
+        return lector.ReadToEnd();
     }
 
     /// <summary>Lee y valida un JSON con la misma estructura que parametros_motor.json.</summary>

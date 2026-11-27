@@ -54,6 +54,14 @@ Authorization: Bearer {{token}}
 ### 6. Sin token → 401
 GET {{api}}/api/perfil
 
+### 6b. ACT-10 · Candidatos por comida (filtro por reglas)
+GET {{api}}/api/recomendaciones/candidatos
+Authorization: Bearer {{token}}
+
+### 6c. ACT-10 · Solo el almuerzo, 5 candidatos
+GET {{api}}/api/recomendaciones/candidatos?comida=almuerzo&limite=5
+Authorization: Bearer {{token}}
+
 ### 7. Mis datos
 GET {{api}}/api/cuenta/mis-datos
 Authorization: Bearer {{token}}
