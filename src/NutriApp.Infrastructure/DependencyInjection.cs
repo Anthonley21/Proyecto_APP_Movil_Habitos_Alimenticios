@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Npgsql;
+using NutriApp.Domain.Motor;
+using NutriApp.Infrastructure.Motor;
 using NutriApp.Infrastructure.Persistencia;
 
 namespace NutriApp.Infrastructure;
@@ -29,6 +31,9 @@ public static class DependencyInjection
         services.AddDbContext<NutriAppDbContext>(o => o.UseNpgsql(b.ConnectionString, npgsql =>
             // 2) Si aun así una conexión se cae, EF Core reintenta la consulta (hasta 3 veces).
             npgsql.EnableRetryOnFailure(maxRetryCount: 3, maxRetryDelay: TimeSpan.FromSeconds(5), errorCodesToAdd: null)));
+
+        // ACT-10: catálogo del motor en memoria (se lee de la base la primera vez que se pide)
+        services.AddSingleton<IProveedorCatalogo, ProveedorCatalogoBd>();
         return services;
     }
 }
